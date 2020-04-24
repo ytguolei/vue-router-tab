@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["ly-CloseLastTab-vue"],{"5b57":function(t,e,a){"use strict";a.r(e);var n=function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("router-tab",{attrs:{"keep-last-tab":!1}})},l=[],s=a("2877"),r={},u=Object(s["a"])(r,n,l,!1,null,null,null);e["default"]=u.exports}}]);
+//# sourceMappingURL=ly-CloseLastTab-vue.3dc4278e.js.map
