@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "api/index.html",
-    "revision": "d5eee7444771b50fd46325fd89546dda"
+    "revision": "8d368f8dda9ab1bdb4d8fbbbe8152b91"
   },
   {
     "url": "assets/css/0.styles.cfd88667.css",
@@ -206,8 +206,8 @@ self.__precacheManifest = [
     "revision": "3d18825c540765a01245658b7b95946d"
   },
   {
-    "url": "assets/js/app.064cf216.js",
-    "revision": "4d72ca775817f7e682d3a09062ecbca4"
+    "url": "assets/js/app.e93395e1.js",
+    "revision": "af60e32cf8c54ad78197b64862219f94"
   },
   {
     "url": "assets/js/vendors~docsearch.6e4b8c51.js",
@@ -215,135 +215,135 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/advanced/dynamic-tab-info.html",
-    "revision": "3a8376d9e19bb3e45507cdafd53e744e"
+    "revision": "dbd1424fc5693a030899104b7a4267f5"
   },
   {
     "url": "guide/advanced/initial-tabs.html",
-    "revision": "ae7cd7f1c292d3e4791089900371e486"
+    "revision": "a3d444fba4d1790ddd29c5728a85ae9f"
   },
   {
     "url": "guide/advanced/page-leave.html",
-    "revision": "6cb95c22f52061204fc99d2ab4a1605e"
+    "revision": "3c1cfde152a8ea7867b21a973a23285b"
   },
   {
     "url": "guide/advanced/restore.html",
-    "revision": "5b9e58f4be4e25b9409608243e87704f"
+    "revision": "c291bb487bd6de1cb708da29ee521a74"
   },
   {
     "url": "guide/advanced/slot.html",
-    "revision": "7188ea5499c0559a1e150bcc963c6ee7"
+    "revision": "803725bea1bba27b516635fcd41ea139"
   },
   {
     "url": "guide/advanced/transition.html",
-    "revision": "32455d021bc8ab5d743ff10257621094"
+    "revision": "e4d40282517917625b6bd4845cca9546"
   },
   {
     "url": "guide/changelog.html",
-    "revision": "75b52f254519b09e0ff0829ffbefb3ee"
+    "revision": "2ba823e9cd6240819b45caf4a4832179"
   },
   {
     "url": "guide/essentials/i18n.html",
-    "revision": "d3959b31aaeaabcd2bbd3be5b30d041a"
+    "revision": "e4177dce1e42358e8b030b43de2fdf77"
   },
   {
     "url": "guide/essentials/iframe.html",
-    "revision": "b22c428c1e5cacefd18278d656fbf8d6"
+    "revision": "ac35ac83cd6f587e2d3bfd222f482709"
   },
   {
     "url": "guide/essentials/index.html",
-    "revision": "3de876d7d373a454de2cd5346344602a"
+    "revision": "a34278c541b17fd6a0b378b728eda297"
   },
   {
     "url": "guide/essentials/operate.html",
-    "revision": "a9c18c19cdce00cf589a927f83c51559"
+    "revision": "8a514c667babff4aace51edd10c5074c"
   },
   {
     "url": "guide/essentials/rule.html",
-    "revision": "8c88ab336f8c07277c5738dbe4cb085d"
+    "revision": "a41d19d4ed6cf85b43417963c07e432c"
   },
   {
     "url": "guide/index.html",
-    "revision": "a568ce1f68afe8133e1ba557b507675d"
+    "revision": "8b17bbb5827b4dca883b7dac8079c18d"
   },
   {
     "url": "guide/installation.html",
-    "revision": "b87bfa8af8b5ce74abc50deb168671b5"
+    "revision": "c327b0ebd32798ecde313beff37fc161"
   },
   {
     "url": "guide/solutions.html",
-    "revision": "c1b4da08f5d95fd4050ae54904a06860"
+    "revision": "0d16115db11b5b4ecce30f5496e4beff"
   },
   {
     "url": "index.html",
-    "revision": "93d8ea59b60e4bb3afdfa1b33b5fe59b"
+    "revision": "10624603393a2377047244c258093634"
   },
   {
     "url": "zh/api/index.html",
-    "revision": "58c839a40199830a73a75b9a1fbf0ada"
+    "revision": "27b31803694d35f7a5c9ad612d17b7b4"
   },
   {
     "url": "zh/guide/advanced/dynamic-tab-info.html",
-    "revision": "f5313430b0f5c4da2821fb75f0a12f60"
+    "revision": "625de02f8f9d5c91f37da9a9835c051e"
   },
   {
     "url": "zh/guide/advanced/initial-tabs.html",
-    "revision": "58d67c6fd54476cca3e93ea8b97a3d6d"
+    "revision": "81083ad97714dec68eadadf354a89795"
   },
   {
     "url": "zh/guide/advanced/page-leave.html",
-    "revision": "1bd3a60aef5cc330cbd651bf671ebf42"
+    "revision": "c3a0b4ff9cf9a1b9c4a0324feb970cdb"
   },
   {
     "url": "zh/guide/advanced/restore.html",
-    "revision": "93df26d12d5bcad1da43a550fa9354ac"
+    "revision": "c8606b6283fd25343f71efe40a78c514"
   },
   {
     "url": "zh/guide/advanced/slot.html",
-    "revision": "177741155f1f374c73662f6307ef3eae"
+    "revision": "649247652ca79a942990fc51b4b1c548"
   },
   {
     "url": "zh/guide/advanced/transition.html",
-    "revision": "ab671d831e84d54478fe3a7e93bc5be2"
+    "revision": "adb4252e35756b9750548d1ee060c432"
   },
   {
     "url": "zh/guide/changelog.html",
-    "revision": "c9e79a5a16eb5676280c90beefe1ddfb"
+    "revision": "32f58c58d14e0f828dba8c861870d21d"
   },
   {
     "url": "zh/guide/essentials/i18n.html",
-    "revision": "aced880778ac8883eaa42207e1432fb1"
+    "revision": "7a65f94caffdcd1594d02f2950551f06"
   },
   {
     "url": "zh/guide/essentials/iframe.html",
-    "revision": "90bc50d94117e0b01e2b7e7cddba5aad"
+    "revision": "019183f28d94c1b45ea1875b3a248c0b"
   },
   {
     "url": "zh/guide/essentials/index.html",
-    "revision": "88d1110f08e9fbcea915a8cf41bf6378"
+    "revision": "e623880b1dc740fe50c059306e033ccc"
   },
   {
     "url": "zh/guide/essentials/operate.html",
-    "revision": "c9471adf4127455f1312c7b7489270d0"
+    "revision": "9055c41e6cb02bd18778ff69f1926cce"
   },
   {
     "url": "zh/guide/essentials/rule.html",
-    "revision": "45c4d8e0de6987bea683a58a77c4a4cd"
+    "revision": "9e72a7ad86f840b15bd147409fe19a95"
   },
   {
     "url": "zh/guide/index.html",
-    "revision": "328350375d2e666deb64cfaabe843303"
+    "revision": "fc0fea7223ade7ef563ebfb38b4b2868"
   },
   {
     "url": "zh/guide/installation.html",
-    "revision": "5fd38580fcb43a68b9c8cf3c08126cc5"
+    "revision": "d791b05555d7314756d5f4fabf1f6b4f"
   },
   {
     "url": "zh/guide/solutions.html",
-    "revision": "8c17603b762b6b0e68ea635c0362178b"
+    "revision": "16eb20b6b1d296b3647748c02da8185c"
   },
   {
     "url": "zh/index.html",
-    "revision": "cd384328ecc1e7cf8b097e932a012f85"
+    "revision": "e0e2fddf74e81d52f42a0a352b14d09b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
