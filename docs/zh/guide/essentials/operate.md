@@ -81,7 +81,7 @@ this.$routerTab.close({
 
 ```js
 this.$routerTab.close({
-  id: '', // 通过页签 id （即 aliveId 返回值）关闭页签, 与 path 二选一即可
+  id: '', // 通过页签 id （即 key 返回值）关闭页签, 与 path 二选一即可
   path: '/page/2', // 通过路由路径关闭页签，可 location 对象方式传入。如果未配置 id 和 path 则关闭当前页签
   match: false, // path 方式关闭时，是否匹配 path 完整路径，默认 true
   force: false, // 是否强制关闭，默认 true
@@ -123,7 +123,7 @@ this.$routerTab.refresh({
 
 ```js
 // 刷新与给定地址共用页签的地址，即使地址不完全匹配
-// 默认 `alive-id` 规则下，类似 '/page/1?query=2' 这样的页签也能被匹配刷新
+// 默认规则下，类似 '/page/1?query=2' 这样的页签也能被匹配刷新
 this.$routerTab.refresh('/page/1', false)
 ```
 

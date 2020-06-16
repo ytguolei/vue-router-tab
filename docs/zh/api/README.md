@@ -14,7 +14,7 @@ sidebar: auto
 
   - 如果类型为 `String` ，则可使用内置的缓存规则，`path` (默认) 和 `fullPath`
 
-  - 如果类型为 `Function` ，则取 `aliveId(route, pagePath)` 返回的字符串。
+  - 如果类型为 `Function` ，则取 `key(route)` 返回的字符串。
     - `route` 为页面路由对象。
     - `pagePath` 当页面存在嵌套路由时生效，为匹配页面所在路由链的路径
     - 该函数传入相同的 `route` 应返回固定的字符串，以免页签无法与缓存的页面对应
@@ -69,7 +69,7 @@ sidebar: auto
 
 ### tabs
 
-**初始页签数据**，进入页面时默认显示的页签。相同 `aliveId` 的页签只保留第一个
+**初始页签数据**，进入页面时默认显示的页签。相同 `key` 的页签只保留第一个
 
 - 类型: `Array <String | Object>`
 
@@ -169,8 +169,7 @@ sidebar: auto
 - 调用:
 
   1. `this.$routerTab.close({id, path, match, force, to, refresh})`
-  2. `this.$routerTab.close(path, match, force)`
-  3. `this.$routerTab.close((path, to, match, force))`
+  2. `this.$routerTab.close(path, to)`
 
 - 参数:
 
@@ -251,7 +250,7 @@ iframe 内容加载成功
 
 | 属性     | 说明         | 类型                | 默认值     | 备注                                                                         |
 | -------- | ------------ | ------------------- | ---------- | ---------------------------------------------------------------------------- |
-| aliveId  | 缓存规则     | `String | Function` | -          | 生成页面组件缓存的 ID。<br>配置参考: [RouterTab Props > alive-id](#alive-id) |
+| key      | 缓存规则     | `String | Function` | -          | 生成页面组件缓存的 ID。<br>配置参考: [RouterTab Props > alive-id](#alive-id) |
 | title    | 页签标题     | `String | Array`    | `'无标题'` | 支持国际化，参考: [教程 - 多语言支持](../guide/essentials/i18n.md)           |
 | tips     | 鼠标悬浮提示 | `String | Array`    | 和标题一致 | 支持国际化，参考: [教程 - 多语言支持](../guide/essentials/i18n.md)           |
 | icon     | 图标         | `String`            | -          | -                                                                            |

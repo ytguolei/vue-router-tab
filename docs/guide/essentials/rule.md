@@ -4,15 +4,15 @@ Different tabs maintain their own page caches, and **page tab rules** define dif
 
 ## Built-in rules
 
-- `path` (default rule)
+- `path`
 
-  - Rule：`(route, pagePath) => pagePath || route.path`
-  - Note: Routes with the same route.params share tabs, nested route tabs are based on pagePath
+  - Rule：`route => route.path`
+  - Note: Routes with the same route.params share tabs
   - <demo-link href="/default/rule/a/1"/>
 
 - `fullPath`
-  - Rule：`(route, pagePath) => pagePath || route.fullPath.replace(route.hash, '')`
-  - Note: Routes with the same route.params and route.query share tabs. Nested route tabs are based on pagePath
+  - Rule：`route => route.fullPath.replace(route.hash, '')`
+  - Note: Routes with the same route.params and route.query share tabs
   - <demo-link href="/global-rule/rule/a/1"/>
 
 ## Global rules
@@ -24,9 +24,7 @@ By configuring RouterTab component `alive-id` attributes, you can define global 
 **Examples：**
 
 ```html
-<router-tab
-  :alive-id="(route, pagePath) => pagePath || route.fullPath.replace(route.hash, '')"
-/>
+<router-tab :alive-id="route => route.fullPath.replace(route.hash, '')" />
 ```
 
 Example, if `alive-id` is set to `fullPath` tabs will be created for each unique route except `hash`.
@@ -41,7 +39,7 @@ This rule are set as `default`, but you can also use it directly like this:
 
 ## Routing rules
 
-By configuring the routing of `meta.aliveId` properties, you can customize the tab for a particular route.
+By configuring the routing of `meta.key` properties, you can customize the tab for a particular route.
 
 <doc-links api="#meta-aliveid" demo="/default/route-rule/a/1"></doc-links>
 
@@ -56,7 +54,7 @@ const route = {
   },
   meta: {
     title: 'Custom',
-    aliveId(route, pagePath) {
+    key(route) {
       return `/my-page/${route.params.catalog}`
     }
   }
